@@ -180,6 +180,184 @@ focus_tree = {
 		completion_reward = { 
 		}
 	}
+
+	focus = {
+		id = GEO_prepare_for_great_war
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_FIRE_TO_ABKHAZIA
+		}
+		
+		relative_position_id = GEO_FIRE_TO_ABKHAZIA
+		x = 0
+		y = 2
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_utilise_georgian_child_soldiers
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_prepare_for_great_war
+		}
+		
+		relative_position_id = GEO_prepare_for_great_war
+		x = -2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_everything_for_the_front
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_prepare_for_great_war
+		}
+		
+		relative_position_id = GEO_prepare_for_great_war
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_demoralise_caucasians
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_prepare_for_great_war
+		}
+		
+		relative_position_id = GEO_prepare_for_great_war
+		x = 2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_enslave_christianity
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_utilise_georgian_child_soldiers
+		}
+		
+		relative_position_id = GEO_utilise_georgian_child_soldiers
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_take_stuff_away_from_civilians
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_everything_for_the_front
+		}
+		
+		relative_position_id = GEO_everything_for_the_front
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_georgian_master_race
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_demoralise_caucasians
+		}
+		
+		relative_position_id = GEO_demoralise_caucasians
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_ready
+		icon = GFX_focus_GER_anschluss
+		cost = 1.5
+		
+		prerequisite = {
+			focus = GEO_enslave_christianity
+		}
+
+		prerequisite = {
+			focus = GEO_take_stuff_away_from_civilians
+		}
+
+		prerequisite = {
+			focus = GEO_georgian_master_race
+		}
+		
+		relative_position_id = GEO_enslave_christianity
+		x = 2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_set
+		icon = GFX_focus_GER_anschluss
+		cost = 1.5
+		
+		prerequisite = {
+			focus = GEO_ready
+		}
+		
+		relative_position_id = GEO_ready
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_go
+		icon = GFX_focus_GER_anschluss
+		cost = 1.5
+		
+		prerequisite = {
+			focus = GEO_set
+		}
+		
+		relative_position_id = GEO_set
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
 	
 	focus = {
 		id = GEO_FIRE_TO_DEMETRE
