@@ -1,0 +1,17 @@
+characters = { 
+	
+	DAG_Kaja_the_man = {
+		name = DAG_Kaja_the_man
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DAG_Kaja_the_man
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}
+	

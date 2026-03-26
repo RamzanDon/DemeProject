@@ -4,4 +4,10 @@ spriteTypes = {
 		name = "GFX_portrait_GEO_Adolf_demetler" 
 		texturefile = "gfx/leaders/GEO/GEO_Adolf_demetler.png"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_DAG_Kaja_the_man" 
+		texturefile = "gfx/leaders/kaka/DAG_Kaja_the_man.png"
+	}
+
 }
