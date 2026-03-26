@@ -1,0 +1,543 @@
+focus_tree = {
+	id = GEO_start_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = GEO
+			add = 10
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 3000 y = 1400 }
+
+	focus = {
+		id = GEO_accross_the_caucasus_mountains
+		icon = GFX_focus_SMB_a_land_of_mountains
+		cost = 1.5
+		
+		x = 18
+		y = 3
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_taking_a_shower
+		icon = GFX_focus_BEL_v_for_victory
+		cost = 1.5 
+		
+		prerequisite = {
+			focus = GEO_accross_the_caucasus_mountains
+		}
+
+		mutually_exclusive = {
+			focus = GEO_FIRE_TO_DEMETRE
+		}
+		
+		relative_position_id = GEO_accross_the_caucasus_mountains
+		x = -5
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_ez_no_shower
+		icon = GFX_focus_GER_propaganda_master
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_taking_a_shower
+		}
+
+		mutually_exclusive = {
+			focus = GEO_go_to_school
+		}
+		
+		relative_position_id = GEO_taking_a_shower
+		x = -3
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_a_letter_to_hitler
+		icon = GFX_focus_GER_propaganda_master
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_ez_no_shower
+		}
+		
+		relative_position_id = GEO_ez_no_shower
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_FIRE_TO_ABKHAZIA
+		icon = GFX_focus_GER_anschluss
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_ez_no_shower
+			focus = GEO_go_to_school
+		}
+		
+		relative_position_id = GEO_ez_no_shower
+		x = 3
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_rk_caucasien
+		icon = GFX_focus_GER_propaganda_master
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_a_letter_to_hitler
+		}
+
+		prerequisite = {
+			focus = GEO_FIRE_TO_ABKHAZIA
+		}
+		
+		relative_position_id = GEO_a_letter_to_hitler
+		x = 2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_go_to_school
+		icon = GFX_focus_SWE_organize_a_putsch
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_taking_a_shower
+		}
+
+		mutually_exclusive = {
+			focus = GEO_ez_no_shower
+		}
+		
+		relative_position_id = GEO_taking_a_shower
+		x = 3
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_our_own_demetreich
+		icon = GFX_focus_SWE_organize_a_putsch
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_go_to_school
+		}
+		
+		relative_position_id = GEO_go_to_school
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_greater_gorgian_reich
+		icon = GFX_focus_SWE_organize_a_putsch
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_FIRE_TO_ABKHAZIA
+		}
+
+		prerequisite = {
+			focus = GEO_our_own_demetreich
+		}
+		
+		relative_position_id = GEO_our_own_demetreich
+		x = -2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_FIRE_TO_DEMETRE
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		cost = 1.5 
+		
+		prerequisite = {
+			focus = GEO_accross_the_caucasus_mountains
+		}
+
+		mutually_exclusive = {
+			focus = GEO_taking_a_shower
+		}
+		
+		relative_position_id = GEO_accross_the_caucasus_mountains
+		x = 7
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_fate_of_georgia
+		icon = GFX_SOV_return_democracy_to_the_party_ccp_2d_sov_compatibility
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_FIRE_TO_DEMETRE
+		}
+		
+		relative_position_id = GEO_FIRE_TO_DEMETRE
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_invite_abkhaz_oligarchs
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_fate_of_georgia
+		}
+		
+		mutually_exclusive = {
+			focus = GEO_freedom_to_georgia
+		}
+		
+		relative_position_id = GEO_fate_of_georgia
+		x = -3
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_slave_labor
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_invite_abkhaz_oligarchs
+		}
+		
+		relative_position_id = GEO_invite_abkhaz_oligarchs
+		x = -2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_invite_russian_specialists
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_invite_abkhaz_oligarchs
+		}
+		
+		relative_position_id = GEO_invite_abkhaz_oligarchs
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_jump_jump_on_demetre_adolfus_grave
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_slave_labor
+		}
+
+		prerequisite = {
+			focus = GEO_invite_russian_specialists
+		}
+		
+		relative_position_id = GEO_slave_labor
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_fire_to_churches
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_invite_abkhaz_oligarchs
+		}
+		
+		relative_position_id = GEO_invite_abkhaz_oligarchs
+		x = 2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_unite_with_islamic_brothers
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_fire_to_churches
+		}
+		
+		relative_position_id = GEO_fire_to_churches
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_abkhaz_colonisation
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_jump_jump_on_demetre_adolfus_grave
+		}
+
+		prerequisite = {
+			focus = GEO_unite_with_islamic_brothers
+		}
+		
+		relative_position_id = GEO_jump_jump_on_demetre_adolfus_grave
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_death_of_georgia
+		icon = GFX_focus_PER_islamic_solidarity
+		cost = 5
+		
+		prerequisite = {
+			focus = GEO_abkhaz_colonisation
+		}
+		
+		relative_position_id = GEO_abkhaz_colonisation
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_freedom_to_georgia
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_fate_of_georgia
+		}
+		
+		mutually_exclusive = {
+			focus = GEO_invite_abkhaz_oligarchs
+		}
+		
+		relative_position_id = GEO_fate_of_georgia
+		x = 3
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_open_up_to_the_world
+		icon = GFX_focus_ARG_defense_and_democracy
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_freedom_to_georgia
+		}
+		
+		relative_position_id = GEO_freedom_to_georgia
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_restore_freedom_of_the_press
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_open_up_to_the_world
+		}
+		
+		relative_position_id = GEO_open_up_to_the_world
+		x = -2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_reconcile_with_brotherly_nations
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_open_up_to_the_world
+		}
+		
+		relative_position_id = GEO_open_up_to_the_world
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_take_a_british_loan
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+		prerequisite = {
+			focus = GEO_open_up_to_the_world
+		}
+		
+		relative_position_id = GEO_open_up_to_the_world
+		x = 2
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_destroy_demeist_remnants
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+
+		prerequisite = {
+			focus = GEO_restore_freedom_of_the_press
+		}
+
+		prerequisite = {
+			focus = GEO_reconcile_with_brotherly_nations
+		}
+		
+		relative_position_id = GEO_restore_freedom_of_the_press
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_open_for_business
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+
+		prerequisite = {
+			focus = GEO_reconcile_with_brotherly_nations
+		}
+
+		prerequisite = {
+			focus = GEO_take_a_british_loan
+		}
+		
+		relative_position_id = GEO_reconcile_with_brotherly_nations
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+	focus = {
+		id = GEO_the_caucasian_dream
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+
+		prerequisite = {
+			focus = GEO_destroy_demeist_remnants
+		}
+
+		prerequisite = {
+			focus = GEO_open_for_business
+		}
+		
+		relative_position_id = GEO_destroy_demeist_remnants
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GEO_from_sukhumi_to_baku
+		icon = GFX_focus_generic_social_democracy
+		cost = 5 
+		
+
+		prerequisite = {
+			focus = GEO_the_caucasian_dream
+		}
+		
+		relative_position_id = GEO_the_caucasian_dream
+		x = 0
+		y = 1
+		
+		completion_reward = { 
+		}
+	}
+	
+}

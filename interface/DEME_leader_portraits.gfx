@@ -1,0 +1,6 @@
+spriteTypes = {     
+
+	spriteType = {
+		name = "GFX_portrait_GEO_Adolf_demetler" 
+		texturefile = "gfx/leaders/GEO/GEO_Adolf_demetler.png"
+	}

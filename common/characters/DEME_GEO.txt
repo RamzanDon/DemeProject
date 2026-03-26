@@ -1,0 +1,17 @@
+characters = { 
+	
+	GEO_Adolf_demetler = {
+		name = GEO_Adolf_demetler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GEO_Adolf_demetler
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}
+	
