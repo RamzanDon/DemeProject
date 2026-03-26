@@ -1,7 +1,23 @@
 ﻿l_english:
 
+ GEO_greater_gorgia:0 "Großgeorgisches Reich"
+ GEO_greater_gorgia_DEF:0 "Großgeorgisches Reich"
+ GEO_greater_gorgia_ADJ:0 "Großgeorgisches"
 
+ GEO_rk_caucasien:0 "Demekommissariat Kaukasien"
+ GEO_rk_caucasien_DEF:0 "Demekommissariat Kaukasien"
+ GEO_rk_caucasien_ADJ:0 "Kaukasien" 
 
+ GEO_abkhazia:0 "Abkhaz State"
+ GEO_abkhazia_DEF:0 "Abkhaz State"
+ GEO_abkhazia_ADJ:0 "Abkhaz" 
+ 
+ GEO_caucasian_federation:0 "Transcaucasian Federative Republic"
+ GEO_caucasian_federation_DEF:0 "Transcaucasian Federative Republic"
+ GEO_caucasian_federation_ADJ:0 "Transcaucasian" 
+ 
+ 
+ 
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"
