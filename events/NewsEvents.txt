@@ -1,0 +1,35 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# anti oligarchy rallies
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_rallies_anti_oligrachy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = GEO
+				TAG = DAG
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = GEO }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = DAG }
+	}
+}

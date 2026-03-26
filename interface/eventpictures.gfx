@@ -1,0 +1,18 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_news_event_rallies_anti_oligrachy"
+		texturefile = "gfx/event_pictures/news_event_rallies_anti_oligrachy.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_anti_oligarchy_speech_2"
+		texturefile = "gfx/event_pictures/Report_event_anti_oligarchy_speech_2.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_anti_oligarchy_speech"
+		texturefile = "gfx/event_pictures/Report_event_anti_oligarchy_speech.png"
+	}
+
+}	

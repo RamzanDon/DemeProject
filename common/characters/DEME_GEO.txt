@@ -13,5 +13,19 @@ characters = {
 			id = -1
 		}
 	}
+
+	GEO_anti_oligarchy_council = {
+		name = GEO_Adolf_demetler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GEO_anti_oligarchy_council
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}	
 }
 	

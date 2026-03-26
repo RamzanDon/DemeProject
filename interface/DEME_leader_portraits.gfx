@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_GEO_anti_oligarchy_council" 
+		texturefile = "gfx/leaders/GEO/GEO_anti_oligarchy_council.png"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_DAG_Kaja_the_man" 
 		texturefile = "gfx/leaders/kaka/DAG_Kaja_the_man.png"
 	}

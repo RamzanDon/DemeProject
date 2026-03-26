@@ -96,11 +96,10 @@ set_popularities = {
 }
 
 
-
-add_ideas = {
-
+news_event = {
+	id = news.1
+	days = 5
 }
-
 
 
 # DIPLOMACY
