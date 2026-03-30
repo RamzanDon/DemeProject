@@ -1,0 +1,17 @@
+add_namespace = ATDM_gorgia_events
+
+country_event = {
+	id = ATDM_gorgia_events.1
+	title = ATDM_gorgia_events.1.t
+	desc = ATDM_gorgia_events.1.d
+	picture = GFX_news_event_ITA_grand_council
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = ATDM_gorgia_events.1.a
+		ai_chance = { base = 1 }
+	}
+}

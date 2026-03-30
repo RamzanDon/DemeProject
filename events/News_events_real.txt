@@ -1,0 +1,17 @@
+add_namespace = ATDM_news_events
+
+# Abkhazia anschluss
+news_event = {
+	id = ATDM_news_events.1
+	title = ATDM_news_events.1.t
+	desc = ATDM_news_events.1.d
+	picture = GFX_news_event_ITA_grand_council
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ATDM_news_events.1.a
+	}
+}
